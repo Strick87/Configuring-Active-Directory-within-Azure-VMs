@@ -25,9 +25,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1 Provision Azure Virtual Machines for AD Deployment.
-- Step 2
-- Step 3
-- Step 4
+- Step 2 Configure Networking Between Virtual Machines.
+- Step 3 Install and Configure Active Directory Domain Services.
+- Step 4 Verify Domain Join and Test Connectivity.
+
 
 <h2>Deployment and Configuration Steps</h2>
 
