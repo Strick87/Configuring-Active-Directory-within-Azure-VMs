@@ -36,21 +36,56 @@
 </p>
 <p>
 This screenshot shows the configuration of a virtual machine in Azure. The VM is set up with Windows 10 Pro (version 22H2), 2 vCPUs, and 8GB of memory. The administrator account has been configured, and the estimated monthly cost is displayed. This VM will serve as the base for deploying on-premises Active Directory in the cloud.
-</p>
-<br />
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/02f1c5e9-8e8f-4ae2-900d-ac0fbf8fe7ee)
+
+
+
+
+
+This screenshot captures the Server Manager dashboard on Windows Server 2022. Here, I began configuring the local server by selecting "Add roles and features," a critical step in preparing the system for Active Directory Domain Services installation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/9873987f-a8c2-4341-97ea-39a94ca28de7)
+
+
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br /># Configuring-Active-Directory-within-Azure-VMs
+"This diagram illustrates the process of joining a Windows 10 virtual machine (Client-1) to a domain managed by the domain controller (DC-1) within an Azure Virtual Network. It highlights the DNS configuration and the communication flow required for domain integration in a hybrid cloud setup."
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/9623e722-1a6b-4aa2-9370-544894cafb14)
+
+
+
+This PowerShell screenshot confirms the virtual machine's hostname (client-1) and its successful connection to the domain. It also displays essential network configurations, including the DNS server settings, verifying the VM's integration into the domain environment.
+
+
+
+
+
