@@ -35,7 +35,7 @@
 
 </p>
 <p>
-This screenshot shows the configuration of a virtual machine in Azure. The VM is set up with Windows 10 Pro (version 22H2), 2 vCPUs, and 8GB of memory. The administrator account has been configured, and the estimated monthly cost is displayed. This VM will serve as the base for deploying on-premises Active Directory in the cloud.
+Step 1-This screenshot shows the configuration of a virtual machine in Azure. The VM is set up with Windows 10 Pro (version 22H2), 2 vCPUs, and 8GB of memory. The administrator account has been configured, and the estimated monthly cost is displayed. This VM will serve as the base for deploying on-premises Active Directory in the cloud.
 
 
 
@@ -48,7 +48,7 @@ This screenshot shows the configuration of a virtual machine in Azure. The VM is
 
 
 
-This screenshot captures the Server Manager dashboard on Windows Server 2022. Here, I began configuring the local server by selecting "Add roles and features," a critical step in preparing the system for Active Directory Domain Services installation.
+Step 2-This screenshot captures the Server Manager dashboard on Windows Server 2022. Here, I began configuring the local server by selecting "Add roles and features," a critical step in preparing the system for Active Directory Domain Services installation.
 
 
 
@@ -70,7 +70,7 @@ This screenshot captures the Server Manager dashboard on Windows Server 2022. He
 
 </p>
 <p>
-"This diagram illustrates the process of joining a Windows 10 virtual machine (Client-1) to a domain managed by the domain controller (DC-1) within an Azure Virtual Network. It highlights the DNS configuration and the communication flow required for domain integration in a hybrid cloud setup."
+Step 3-This diagram illustrates the process of joining a Windows 10 virtual machine (Client-1) to a domain managed by the domain controller (DC-1) within an Azure Virtual Network. It highlights the DNS configuration and the communication flow required for domain integration in a hybrid cloud setup."
 
 
 
@@ -83,7 +83,7 @@ This screenshot captures the Server Manager dashboard on Windows Server 2022. He
 
 
 
-This PowerShell screenshot confirms the virtual machine's hostname (client-1) and its successful connection to the domain. It also displays essential network configurations, including the DNS server settings, verifying the VM's integration into the domain environment.
+Step 4-This PowerShell screenshot confirms the virtual machine's hostname (client-1) and its successful connection to the domain. It also displays essential network configurations, including the DNS server settings, verifying the VM's integration into the domain environment.
 
 
 
